@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #12263a;
+  background-color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-image-show {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+.body-seaction{
+  align-items: center;
+  justify-content: center;
+}
+#image-form{
+  flex-direction: column;
+  width: 100%;
+}
+form,input,select {
+  font-size: 20px;
+  width: 400px;
+  max-width: 500px;
+  padding: 1rem;
+  border: 1px solid #e3f2fd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+label{
+  margin-bottom: 10px;
+}
+.image {
+  width: 100%;
+  margin-top: 2rem;
+}
+  
+img {
+  display: block;
+  margin: auto;
+}
+.message{
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 1rem;
+}
